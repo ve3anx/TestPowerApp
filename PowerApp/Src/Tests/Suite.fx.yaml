@@ -1,0 +1,13 @@
+"'44dd3be9-daf9-48be-b1de-77b0c35549cd' As TestSuite":
+    Description: =""
+    DisplayName: ="Suite"
+
+    "'651c3e77-9518-4939-848b-d48f60211355' As TestCase":
+        Description: =""
+        DisplayName: ="Case"
+
+        Step1 As TestStep:
+            Description: ="Select 'Label1'"
+            Screen: =Screen1
+            Value: =Select(Label1)
+
