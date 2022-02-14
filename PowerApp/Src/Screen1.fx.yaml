@@ -6,14 +6,6 @@ Screen1 As screen:
         Y: =40
         ZIndex: =1
 
-    Rectangle1 As rectangle:
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =458
-        Width: =592
-        X: =105
-        Y: =135
-        ZIndex: =2
-
     BookNameInput As text:
         Default: =
         X: =362
@@ -45,4 +37,12 @@ Screen1 As screen:
         X: =808
         Y: =40
         ZIndex: =7
+
+    Gallery1 As gallery.galleryVertical:
+        Items: =BookCollection
+        Layout: =Layout.Vertical
+        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+        X: =129
+        Y: =159
+        ZIndex: =8
 
