@@ -14,3 +14,35 @@ Screen1 As screen:
         Y: =135
         ZIndex: =2
 
+    BookNameInput As text:
+        Default: =
+        X: =362
+        Y: =40
+        ZIndex: =3
+
+    BookAuthorInput As text:
+        Default: =
+        X: =362
+        Y: =95
+        ZIndex: =4
+
+    Label2 As label:
+        Text: |-
+            ="Book name:"
+        X: =166
+        Y: =40
+        ZIndex: =5
+
+    Label3 As label:
+        Text: |-
+            ="Book Author:"
+        X: =166
+        Y: =95
+        ZIndex: =6
+
+    Button1 As button:
+        Text: ="Add Item"
+        X: =808
+        Y: =40
+        ZIndex: =7
+

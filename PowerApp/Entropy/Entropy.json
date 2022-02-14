@@ -4,13 +4,18 @@
     "44dd3be9-daf9-48be-b1de-77b0c35549cd": 6,
     "651c3e77-9518-4939-848b-d48f60211355": 7,
     "App": 1,
+    "BookAuthorInput": 9,
+    "BookNameInput": 8,
+    "Button1": 12,
     "Label1": 4,
+    "Label2": 10,
+    "Label3": 11,
     "Rectangle1": 5,
     "Screen1": 3,
     "Test_7F478737223C4B69": 2
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "02/14/2022 18:43:25",
+  "HeaderLastSavedDateTimeUTC": "02/14/2022 18:54:48",
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
@@ -22,22 +27,29 @@
   "OrderGroupControls": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
+    "button": 2,
     "label": 0,
-    "rectangle": 1
+    "rectangle": 3,
+    "text": 1
   },
   "PublishOrderIndices": {
     "44dd3be9-daf9-48be-b1de-77b0c35549cd": 0,
     "651c3e77-9518-4939-848b-d48f60211355": 0,
     "App": 0,
+    "BookAuthorInput": 5,
+    "BookNameInput": 2,
+    "Button1": 3,
     "Label1": 0,
-    "Rectangle1": 1,
+    "Label2": 1,
+    "Label3": 4,
+    "Rectangle1": 6,
     "Screen1": 0,
     "Test_7F478737223C4B69": 0
   },
   "ResourcesJsonIndices": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0712775,
+    "AnalysisLoadTime": 0.0757065,
     "ControlCount": {
       "label": 1,
       "rectangle": 1,
@@ -45,7 +57,7 @@
       "TestCase": 1,
       "TestSuite": 1
     },
-    "DeserializationLoadTime": 1.0125593,
+    "DeserializationLoadTime": 0.993014,
     "ErrorCount": 0
   }
 }
