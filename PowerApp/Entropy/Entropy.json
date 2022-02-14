@@ -7,6 +7,7 @@
     "BookAuthorInput": 9,
     "BookNameInput": 6,
     "Button1": 7,
+    "Button2": 19,
     "Gallery1": 13,
     "galleryTemplate1": 14,
     "Label1": 4,
@@ -20,7 +21,7 @@
     "Title1": 15
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "02/14/2022 19:11:54",
+  "HeaderLastSavedDateTimeUTC": "02/14/2022 19:30:10",
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
@@ -33,12 +34,12 @@
   "OrderGroupControls": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "button": 5,
+    "button": 4,
     "gallery": 1,
     "icon": 2,
     "label": 0,
     "rectangle": 3,
-    "text": 4
+    "text": 5
   },
   "PublishOrderIndices": {
     "44dd3be9-daf9-48be-b1de-77b0c35549cd": 0,
@@ -47,6 +48,7 @@
     "BookAuthorInput": 5,
     "BookNameInput": 2,
     "Button1": 3,
+    "Button2": 0,
     "Gallery1": 0,
     "galleryTemplate1": 0,
     "Label1": 0,

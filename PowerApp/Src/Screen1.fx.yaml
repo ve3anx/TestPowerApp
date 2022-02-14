@@ -66,6 +66,13 @@ Screen1 As screen:
             Y: =Parent.TemplateHeight - 1
             ZIndex: =4
 
+        Button2 As button:
+            OnSelect: =Remove(BookCollection,ThisItem)
+            Text: ="Delete"
+            X: =408
+            Y: =32
+            ZIndex: =5
+
     BookNameInput As text:
         Default: =
         X: =362
