@@ -12,11 +12,15 @@
     "Label1": 4,
     "Label2": 5,
     "Label3": 8,
+    "NextArrow1": 17,
     "Screen1": 3,
-    "Test_7F478737223C4B69": 2
+    "Separator1": 18,
+    "Subtitle1": 16,
+    "Test_7F478737223C4B69": 2,
+    "Title1": 15
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "02/14/2022 19:11:08",
+  "HeaderLastSavedDateTimeUTC": "02/14/2022 19:11:54",
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
@@ -29,10 +33,12 @@
   "OrderGroupControls": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "button": 3,
+    "button": 5,
     "gallery": 1,
+    "icon": 2,
     "label": 0,
-    "text": 2
+    "rectangle": 3,
+    "text": 4
   },
   "PublishOrderIndices": {
     "44dd3be9-daf9-48be-b1de-77b0c35549cd": 0,
@@ -46,8 +52,12 @@
     "Label1": 0,
     "Label2": 1,
     "Label3": 4,
+    "NextArrow1": 0,
     "Screen1": 0,
-    "Test_7F478737223C4B69": 0
+    "Separator1": 0,
+    "Subtitle1": 0,
+    "Test_7F478737223C4B69": 0,
+    "Title1": 0
   },
   "ResourcesJsonIndices": {},
   "TemplateVersions": {},
