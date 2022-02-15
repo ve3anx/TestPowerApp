@@ -21,7 +21,7 @@
     "Title1": 12
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "02/15/2022 20:45:47",
+  "HeaderLastSavedDateTimeUTC": "02/15/2022 20:48:03",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
@@ -67,7 +67,7 @@
   "ResourcesJsonIndices": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.2324488,
+    "AnalysisLoadTime": 0.233991,
     "ControlCount": {
       "button": 2,
       "gallery": 1,
@@ -80,7 +80,7 @@
       "TestSuite": 1,
       "text": 2
     },
-    "DeserializationLoadTime": 1.0712201,
+    "DeserializationLoadTime": 0.766522,
     "ErrorCount": 2
   }
 }
