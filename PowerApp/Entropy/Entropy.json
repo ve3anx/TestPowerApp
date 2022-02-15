@@ -4,24 +4,24 @@
     "44dd3be9-daf9-48be-b1de-77b0c35549cd": 17,
     "651c3e77-9518-4939-848b-d48f60211355": 18,
     "App": 1,
-    "BookAuthorInput": 16,
-    "BookNameInput": 13,
-    "Button1": 14,
-    "Button2": 11,
-    "Gallery1": 5,
-    "galleryTemplate1": 6,
+    "BookAuthorInput": 9,
+    "BookNameInput": 6,
+    "Button1": 7,
+    "Button2": 14,
+    "Gallery1": 10,
+    "galleryTemplate1": 11,
     "Label1": 4,
-    "Label2": 12,
-    "Label3": 15,
-    "NextArrow1": 9,
+    "Label2": 5,
+    "Label3": 8,
+    "NextArrow1": 13,
     "Screen1": 3,
-    "Separator1": 10,
-    "Subtitle1": 8,
+    "Separator1": 16,
+    "Subtitle1": 15,
     "Test_7F478737223C4B69": 2,
-    "Title1": 7
+    "Title1": 12
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "02/15/2022 20:19:43",
+  "HeaderLastSavedDateTimeUTC": "02/15/2022 20:44:19",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
@@ -31,7 +31,6 @@
   "OrderDataSource": {
     "BookCollection": 2,
     "CustomGallerySample": 0,
-    "ResourceCollectionn": 3,
     "SSC BR Resource Groups": 1
   },
   "OrderGroupControls": {},
@@ -67,7 +66,7 @@
   "ResourcesJsonIndices": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.2219909,
+    "AnalysisLoadTime": 0.2324488,
     "ControlCount": {
       "button": 2,
       "gallery": 1,
@@ -80,7 +79,7 @@
       "TestSuite": 1,
       "text": 2
     },
-    "DeserializationLoadTime": 1.1352438,
-    "ErrorCount": 0
+    "DeserializationLoadTime": 1.0712201,
+    "ErrorCount": 5
   }
 }
