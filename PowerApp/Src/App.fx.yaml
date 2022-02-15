@@ -1,5 +1,6 @@
 App As appinfo:
     BackEnabled: =false
     OnStart: |-
-        =Collect(BookCollection, {BookName: "The Testaments", Author: "Margaret Atwood"}, {BookName: "Cheque book", Author: "Vasdev Mohi"}, {BookName: "The Overstory", Author: "Richard Powers"})
+        =Collect(BookCollection, {BookName: "The Testaments", Author: "Margaret Atwood"}, {BookName: "Cheque book", Author: "Vasdev Mohi"}, {BookName: "The Overstory", Author: "Richard Powers"});
+        Collect(ResourceCollection, 'SSC BR Resource Groups');
 

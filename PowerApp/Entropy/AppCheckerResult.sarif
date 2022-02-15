@@ -157,6 +157,36 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.OnStart"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.OnStart",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "OnStart",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-CollectDelegatableDataSource",
+          "ruleIndex": 3
         }
       ],
       "tool": {
@@ -213,6 +243,23 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "People who use the keyboard with your app will not be able to access this element without a tab stop."
+              }
+            },
+            {
+              "id": "app-CollectDelegatableDataSource",
+              "messageStrings": {
+                "issue": {
+                  "text": "The rows retrieved from the data source may not be complete."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Limit the data collected from the data source by updating the formula \"Collect(ResourceCollection, 'SSC BR Resource Groups')\" to include a filtering function, such as 'Filter' or 'Search'."
+                ],
+                "level": "Medium",
+                "primaryCategory": "performance",
+                "whyFix": "Using the 'Collect' function to create a collection directly from a connected data source may not load every row if the data source is too large."
               }
             }
           ],
