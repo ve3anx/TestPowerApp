@@ -21,7 +21,7 @@
     "Title1": 7
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "02/15/2022 20:16:20",
+  "HeaderLastSavedDateTimeUTC": "02/15/2022 20:18:03",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
@@ -31,18 +31,18 @@
   "OrderDataSource": {
     "BookCollection": 2,
     "CustomGallerySample": 0,
-    "ResourceCollection": 3,
+    "ResourceCollectionn": 3,
     "SSC BR Resource Groups": 1
   },
   "OrderGroupControls": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "button": 4,
-    "gallery": 1,
-    "icon": 2,
+    "button": 2,
+    "gallery": 3,
+    "icon": 4,
     "label": 0,
-    "rectangle": 3,
-    "text": 5
+    "rectangle": 5,
+    "text": 1
   },
   "PublishOrderIndices": {
     "44dd3be9-daf9-48be-b1de-77b0c35549cd": 0,
@@ -51,18 +51,18 @@
     "BookAuthorInput": 5,
     "BookNameInput": 2,
     "Button1": 3,
-    "Button2": 0,
-    "Gallery1": 0,
-    "galleryTemplate1": 0,
+    "Button2": 10,
+    "Gallery1": 6,
+    "galleryTemplate1": 7,
     "Label1": 0,
     "Label2": 1,
     "Label3": 4,
-    "NextArrow1": 0,
+    "NextArrow1": 9,
     "Screen1": 0,
-    "Separator1": 0,
-    "Subtitle1": 0,
+    "Separator1": 12,
+    "Subtitle1": 11,
     "Test_7F478737223C4B69": 0,
-    "Title1": 0
+    "Title1": 8
   },
   "ResourcesJsonIndices": {},
   "TemplateVersions": {},
@@ -81,6 +81,6 @@
       "text": 2
     },
     "DeserializationLoadTime": 1.1352438,
-    "ErrorCount": 0
+    "ErrorCount": 2
   }
 }
