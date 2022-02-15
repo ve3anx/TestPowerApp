@@ -21,7 +21,7 @@
     "Title1": 12
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "02/15/2022 20:44:19",
+  "HeaderLastSavedDateTimeUTC": "02/15/2022 20:45:47",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
@@ -31,6 +31,7 @@
   "OrderDataSource": {
     "BookCollection": 2,
     "CustomGallerySample": 0,
+    "ResourceCollection": 3,
     "SSC BR Resource Groups": 1
   },
   "OrderGroupControls": {},
@@ -80,6 +81,6 @@
       "text": 2
     },
     "DeserializationLoadTime": 1.0712201,
-    "ErrorCount": 5
+    "ErrorCount": 2
   }
 }
