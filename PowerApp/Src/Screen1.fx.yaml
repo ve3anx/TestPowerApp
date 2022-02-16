@@ -1,7 +1,7 @@
 Screen1 As screen:
 
     Label1 As label:
-        Text: ="Hello World"
+        Text: ="List with Collections"
         X: =40
         Y: =40
         ZIndex: =1
@@ -22,7 +22,7 @@ Screen1 As screen:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.ResourceGroup
+            Text: =ThisItem.Title
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
             X: =32
@@ -66,13 +66,6 @@ Screen1 As screen:
             Y: =Parent.TemplateHeight - 1
             ZIndex: =4
 
-        Button2 As button:
-            OnSelect: =Remove(ResourceCollection,ThisItem)
-            Text: ="Delete"
-            X: =408
-            Y: =32
-            ZIndex: =5
-
     BookNameInput As text:
         Default: =
         X: =362
@@ -87,21 +80,21 @@ Screen1 As screen:
 
     Label2 As label:
         Text: |-
-            ="Book name:"
+            ="Resource Group:"
         X: =166
         Y: =40
         ZIndex: =5
 
     Label3 As label:
         Text: |-
-            ="Book Author:"
+            ="Resource Name:"
         X: =166
         Y: =95
         ZIndex: =6
 
     Button1 As button:
         OnSelect: |-
-            =Collect(BookCollection,{BookName:BookNameInput.Text, Author:BookAuthorInput.Text})
+            =Collect(ResourceCollection,{Title:BookNameInput.Text, ResourceName:BookAuthorInput.Text})
         Text: ="Add Item"
         X: =808
         Y: =40

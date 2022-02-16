@@ -2,5 +2,5 @@ App As appinfo:
     BackEnabled: =false
     OnStart: |-
         =Collect(BookCollection, {BookName: "The Testaments", Author: "Margaret Atwood"}, {BookName: "Cheque book", Author: "Vasdev Mohi"}, {BookName: "The Overstory", Author: "Richard Powers"});
-        ClearCollect(ResourceCollection, Filter('SSC BR Resource Groups', BRID.Id=2));
+        ClearCollect(ResourceCollection, Filter('SSC BR Resource Groups', BRID.Id=1));
 
