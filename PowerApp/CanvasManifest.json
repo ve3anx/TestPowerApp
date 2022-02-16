@@ -81,11 +81,11 @@
     "FileID": "b4a4be19-f9af-4c49-994a-b77596d7f80d",
     "Id": "b4a4be19-f9af-4c49-994a-b77596d7f80d",
     "InstrumentationKey": "",
-    "Name": "Vlads Hello World",
+    "Name": "Vlads Resource Groups",
     "OriginatingVersion": "1.321"
   },
   "PublishInfo": {
-    "AppName": "Vlads Hello World",
+    "AppName": "Vlads Resource Groups",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",

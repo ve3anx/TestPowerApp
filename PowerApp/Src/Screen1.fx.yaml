@@ -7,7 +7,7 @@ Screen1 As screen:
         ZIndex: =1
 
     "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver4.0'":
-        Items: =BookCollection
+        Items: =ResourceCollection
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(104, Self.Height - 60)
@@ -22,7 +22,7 @@ Screen1 As screen:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.Author
+            Text: =ThisItem.ResourceGroup
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
             X: =32
@@ -36,7 +36,7 @@ Screen1 As screen:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.BookName
+            Text: =ThisItem.ResourceName
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
             X: =32
@@ -67,7 +67,7 @@ Screen1 As screen:
             ZIndex: =4
 
         Button2 As button:
-            OnSelect: =Remove(BookCollection,ThisItem)
+            OnSelect: =Remove(ResourceCollection,ThisItem)
             Text: ="Delete"
             X: =408
             Y: =32
