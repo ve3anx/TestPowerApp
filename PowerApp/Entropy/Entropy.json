@@ -1,26 +1,28 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueIds": {
-    "44dd3be9-daf9-48be-b1de-77b0c35549cd": 17,
-    "651c3e77-9518-4939-848b-d48f60211355": 18,
+    "44dd3be9-daf9-48be-b1de-77b0c35549cd": 16,
+    "651c3e77-9518-4939-848b-d48f60211355": 17,
     "App": 1,
     "BookAuthorInput": 9,
     "BookNameInput": 6,
     "Button1": 7,
+    "Button2": 18,
+    "Button4": 20,
     "Gallery1": 10,
     "galleryTemplate1": 11,
     "Label1": 4,
     "Label2": 5,
     "Label3": 8,
-    "NextArrow1": 21,
+    "NextArrow1": 13,
     "Screen1": 3,
-    "Separator1": 22,
-    "Subtitle1": 20,
+    "Separator1": 15,
+    "Subtitle1": 14,
     "Test_7F478737223C4B69": 2,
-    "Title1": 19
+    "Title1": 12
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "02/16/2022 20:16:31",
+  "HeaderLastSavedDateTimeUTC": "02/16/2022 20:51:02",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
@@ -50,6 +52,8 @@
     "BookAuthorInput": 5,
     "BookNameInput": 2,
     "Button1": 3,
+    "Button2": 10,
+    "Button4": 13,
     "Gallery1": 6,
     "galleryTemplate1": 7,
     "Label1": 0,
@@ -57,17 +61,17 @@
     "Label3": 4,
     "NextArrow1": 9,
     "Screen1": 0,
-    "Separator1": 11,
-    "Subtitle1": 10,
+    "Separator1": 12,
+    "Subtitle1": 11,
     "Test_7F478737223C4B69": 0,
     "Title1": 8
   },
   "ResourcesJsonIndices": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.259316,
+    "AnalysisLoadTime": 0.2022253,
     "ControlCount": {
-      "button": 2,
+      "button": 1,
       "gallery": 1,
       "galleryTemplate": 1,
       "icon": 1,
@@ -78,7 +82,7 @@
       "TestSuite": 1,
       "text": 2
     },
-    "DeserializationLoadTime": 1.2548059,
+    "DeserializationLoadTime": 1.2467745,
     "ErrorCount": 2
   }
 }

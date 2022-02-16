@@ -66,6 +66,13 @@ Screen1 As screen:
             Y: =Parent.TemplateHeight - 1
             ZIndex: =4
 
+        Button2 As button:
+            OnSelect: =Remove(ResourceCollection,ThisItem)
+            Text: ="Delete"
+            X: =366
+            Y: =32
+            ZIndex: =5
+
     BookNameInput As text:
         Default: =
         X: =362
@@ -99,4 +106,14 @@ Screen1 As screen:
         X: =808
         Y: =40
         ZIndex: =7
+
+    Button4 As button:
+        OnSelect: |-
+            =ForAll(ResourceCollection, Patch('SSC BR Resource Groups', Defaults(ResourceCollection), { Title: Title, ResourceName: ResourceName}))
+        Text: |-
+            ="Submit
+            "
+        X: =987
+        Y: =309
+        ZIndex: =8
 
